@@ -1,15 +1,15 @@
 import Typewriter from "./ui/Typewriter";
+import DashWidgets from "./DashWidgets";
 
 export default function Welcome(){
     return (
-        <div className="text-center bg-gray-100 p-24 px-40 rounded-3xl mt-60">
-            <div className='text-4xl font-bold'>
-                Welcome. Your Assistant Digital
+        <div className="text-center bg-gray-100 p-24 px-40 rounded-3xl ">
+            <div className='text-4xl font-bold mb-10'>
+                Powerhouse Digital Solutions Dashboard
             </div>
-            <div className="text-2xl">
-                <Typewriter text="What do you want to do today?" delay={100} />
+            <div>
+                <DashWidgets />
             </div>
-
         </div>
     );
   }

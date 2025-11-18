@@ -7,8 +7,8 @@ import Head from "next/head";
 const oxanium = Oxanium({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Magic Tools CMS",
-  description: "CMS for Magic Tools",
+  title: "License Dashboard",
+  description: "License Dashboard",
 };
 
 export default function RootLayout({
